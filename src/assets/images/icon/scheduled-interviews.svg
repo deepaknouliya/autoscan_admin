@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20.524" height="21.5" viewBox="0 0 20.524 21.5">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_63917" data-name="Rectangle 63917" width="20.524" height="21.5" fill="none" stroke="#44546f" strokeWidth="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_44565" data-name="Group 44565" clip-path="url(#clip-path)">
+    <path id="Path_89165" data-name="Path 89165" d="M4.165,11.969A2,2,0,0,1,2.214,9.88v-.7A2,2,0,0,1,4.165,7.092,2,2,0,0,1,6.116,9.181v.7A2,2,0,0,1,4.165,11.969Z" fill="none" stroke="#44546f" strokeLinecap="round" stroke-miterlimit="10" strokeWidth="1.5"/>
+    <path id="Path_89166" data-name="Path 89166" d="M.75,14.409v-.488c0-1.337,2.2-1.951,3.415-1.951s3.414.6,3.414,1.94v.5" fill="none" stroke="#44546f" strokeLinecap="round" stroke-miterlimit="10" strokeWidth="1.5"/>
+    <path id="Path_89167" data-name="Path 89167" d="M16.36,11.969A2,2,0,0,1,14.409,9.88v-.7a1.956,1.956,0,1,1,3.9,0v.7A2,2,0,0,1,16.36,11.969Z" fill="none" stroke="#44546f" strokeLinecap="round" stroke-miterlimit="10" strokeWidth="1.5"/>
+    <path id="Path_89168" data-name="Path 89168" d="M12.945,14.409v-.488c0-1.337,2.2-1.951,3.415-1.951s3.414.6,3.414,1.94v.5" fill="none" stroke="#44546f" strokeLinecap="round" stroke-miterlimit="10" strokeWidth="1.5"/>
+    <path id="Path_89169" data-name="Path 89169" d="M3.9,4.652A7.389,7.389,0,0,1,10.248.75,7.385,7.385,0,0,1,16.57,4.613" fill="none" stroke="#44546f" strokeLinecap="round" stroke-miterlimit="10" strokeWidth="1.5"/>
+    <path id="Path_89170" data-name="Path 89170" d="M16.8,16.36a7.455,7.455,0,0,1-6.551,4.39A7.449,7.449,0,0,1,3.71,16.383" fill="none" stroke="#44546f" strokeLinecap="round" stroke-miterlimit="10" strokeWidth="1.5"/>
+    <path id="Path_89171" data-name="Path 89171" d="M17.266,18.386,16.8,16.361l-1.982.438" fill="none" stroke="#44546f" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"/>
+    <path id="Path_89172" data-name="Path 89172" d="M3.53,2.608l.376,2.045,2-.349" fill="none" stroke="#44546f" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"/>
+  </g>
+</svg>

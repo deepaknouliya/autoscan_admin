@@ -1,0 +1,24 @@
+.event-images img {
+  height: 150px !important;
+  width: 200px !important;
+
+  @media (min-width: 576px) {
+    height: 240px !important;
+    width: 320px !important;
+  }
+
+  @media (min-width: 768px) {
+    height: 120px !important;
+    width: 160px !important;
+  }
+
+  @media (min-width: 992px) {
+    height: 180px !important;
+    width: 240px !important;
+  }
+
+  @media (min-width: 1200px) {
+    height: 240px !important;
+    width: 320px !important;
+  }
+}

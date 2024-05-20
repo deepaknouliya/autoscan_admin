@@ -1,0 +1,41 @@
+.MultiStepForm .accordion_single_items {
+    background: #fFf;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.theme-btn {
+    background: #FF802B;
+    width: 100%;
+    font-weight: 500;
+    margin: 15px 0 0 0;
+}
+
+button.btn.next-step:hover {
+    color: #FF802B;
+}
+
+section.MultiStepForm {
+    position: relative;
+    margin: -210px 0 40px 0;
+}
+
+button.btn.next-step {
+    color: #FFF;
+}
+
+@media screen and (max-width:920px) {
+    .MultiStepForm .accordion_single_items {
+        padding: 30px 20px;
+    }
+
+    section.MultiStepForm {
+        margin: -290px 0 40px 0;
+        padding: 10px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}

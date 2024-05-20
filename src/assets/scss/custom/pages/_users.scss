@@ -1,0 +1,31 @@
+// 
+// Users.scss
+//
+
+.contact-links{
+  a{
+    color: $body-color;
+  }
+}
+
+// profile
+
+.profile-user-wid{
+  margin-top: -26px;
+}
+
+.payouts-table-success {
+	background-color: #e4fce9 !important;
+}
+
+.payouts-table-danger {
+	background-color: #fdeeee !important;
+}
+
+.height-fit-content {
+  height: fit-content !important;
+}
+
+.width-fit-content {
+  width: fit-content !important;
+}

@@ -1,0 +1,450 @@
+.usedCarMainContainer {
+    margin: 30px 0;
+    position: relative;
+    padding: 10px 20px;
+}
+
+.usedCarMainContainer .sidebar {
+    height: 100%;
+    position: sticky;
+    top: 0;
+    box-shadow: rgb(0 0 0 / 17%) 0px 5px 15px;
+}
+
+.usedCarMainContainer .RightSide .badge {
+    background: linear-gradient(90deg, rgba(254, 54, 99, 0.88) 0%, rgba(255, 171, 115, 0.88) 100%);
+    position: absolute;
+    top: 0;
+    border-bottom-left-radius: 95px;
+    padding: 12px 50px;
+    border-top-right-radius: 55px;
+    color: #FFF;
+    right: 0;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.usedCarMainContainer .RightSide .filterItems {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: none;
+    gap: 2rem 0;
+}
+
+.usedCarMainContainer .RightSide .card-title {
+    color: #000;
+}
+
+.usedCarMainContainer .RightSide .sPara {
+    color: #000;
+}
+
+.usedCarMainContainer .RightSide img {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.usedCarMainContainer .sPara {
+    font-size: 0.8rem;
+}
+
+.usedCarMainContainer .desc {
+    font-size: .9rem;
+}
+
+.usedCarMainContainer .RightSide .carPrice {
+    color: #2F88FF;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+
+
+
+.usedCarMainContainer .sidebar .filterSubCategory {
+    padding: 10px 20px;
+}
+
+.usedCarMainContainer .sidebar .priceBar .d-flex {
+    justify-content: space-between;
+}
+
+.usedCarMainContainer .sidebar form {
+    color: #555;
+    padding: 2px;
+    border-radius: 5px;
+    margin: 0 0 30px;
+}
+
+.usedCarMainContainer .sidebar input[type="search"] {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+}
+
+.usedCarMainContainer .sidebar input[type="search"]::placeholder {
+    color: #bbb;
+}
+
+.usedCarMainContainer .sidebar .priceBar {
+    border-bottom: 1px solid #E1E1E1;
+    padding-bottom: 25px;
+}
+
+.usedCarMainContainer .sidebar button[type="submit"] {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.usedCarMainContainer .sidebar button[type="submit"]:hover {
+    opacity: 1;
+}
+
+.usedCarMainContainer .sidebar button[type="submit"]:focus,
+.usedCarMainContainer .sidebar input[type="search"]:focus {
+    box-shadow: 0 0 3px 0 #1183d6;
+    border-color: #1183d6;
+    outline: none;
+}
+
+.usedCarMainContainer .sidebar form.search {
+    border: none;
+    padding: 0;
+}
+
+.usedCarMainContainer .sidebar input.search {
+    border: 1px solid #555;
+    width: 100%;
+    margin: 14px 0;
+    padding: 9px 4px 9px 40px;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+}
+
+.usedCarMainContainer .sidebar .card-title {
+    font-size: 17px;
+    margin: 5px 0 10px 0;
+    font-weight: 500;
+}
+
+.usedCarMainContainer .sidebar label {
+    display: block;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    display: inline-block;
+    background: #FFF 1px 1px no-repeat;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #0000009c;
+    border-radius: 50%;
+    transition: border 0.5s;
+}
+
+input[type="radio"]:checked {
+    background-position: -513px -4px;
+    transition: background 0.5s steps(17);
+    border-color: none;
+    background: var(--theme-d-color);
+}
+
+input[type="radio"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px #555;
+}
+
+input[type="radio"]+span {
+    position: relative;
+    top: -0.5em;
+    line-height: 1.3em;
+    padding-left: 7px;
+}
+
+.bodyType {
+    position: relative;
+}
+
+.bodyType ul li {
+    list-style: none;
+    margin: 10px auto;
+}
+
+.bodyType input[type="checkbox"] {
+    display: none;
+}
+
+.bodyType label {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.bodyType label:before,
+.bodyType label:after {
+    font-family: FontAwesome;
+    font-size: 25px;
+    position: absolute;
+    top: -5px;
+    left: 0;
+    right: 0;
+}
+
+.bodyType label:before {
+    content: '\f096';
+    /*checkbox unchecked */
+}
+
+.bodyType label:after {
+    content: '\f00c';
+    max-width: 0;
+    overflow: hidden;
+    opacity: 0.5;
+    font-size: 27px;
+    top: -8px;
+    left: 0px;
+    color: var(--theme-d-color);
+    -webkit-transition: all 0.50s;
+    -moz-transition: all 0.50s;
+    -o-transition: all 0.50s;
+    transition: all 0.50s;
+}
+
+/* Animating the Checkbox Icon */
+.bodyType input[type="checkbox"]:checked+label:after {
+    max-width: 25px;
+    opacity: 1;
+    margin-right: 90px;
+}
+
+.price-range-slider {
+    width: 100%;
+}
+
+.price-range-slider .range-value {
+    margin: 0;
+}
+
+.price-range-slider .range-value input {
+    width: 100%;
+    background: none;
+    color: #555;
+    font-size: 16px;
+    font-weight: initial;
+    box-shadow: none;
+    border: none;
+    font-weight: 500;
+    margin: 20px 0 20px 0;
+}
+
+.price-range-slider .range-bar {
+    border: none;
+    background: #FF7D27;
+    height: 3px;
+    width: 96%;
+    margin-left: 8px;
+}
+
+.price-range-slider .range-bar .ui-slider-range {
+    background: #FF7D27;
+}
+
+.price-range-slider .range-bar .ui-slider-handle {
+    border: none;
+    border-radius: 25px;
+    background: #fff;
+    border: 2px solid #FF7D27;
+    height: 17px;
+    width: 17px;
+    top: -0.52em;
+    cursor: pointer;
+}
+
+.price-range-slider .range-bar .ui-slider-handle+span {
+    background: #FF7D27;
+    outline: none;
+}
+
+.usedCarMainContainer .filterItems .card-content {
+    position: relative;
+}
+
+
+
+
+.card-content {
+    position: relative;
+}
+
+.ribbon-2 {
+    --f: 10px;
+    --r: 15px;
+    --t: -10px;
+    position: absolute;
+    inset: var(--t) calc(-1* var(--f)) auto auto;
+    padding: 0 10px var(--f) calc(10px + var(--r));
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - var(--f)), calc(100% - var(--f)) 100%, calc(100% - var(--f)) calc(100% - var(--f)), 0 calc(100% - var(--f)), var(--r) calc(50% - var(--f) / 2));
+    background: linear-gradient(45deg, #FD5175, #ffaa2a);
+    box-shadow: 0 calc(-1* var(--f)) 0 inset #0005;
+    color: #FFF;
+    font-size: 13px;
+}
+
+.ribbon-2 b {
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+/*--- /.price-range-slider ---*/
+
+
+/* MEDIA QUERY For DESKTOP */
+@media screen and (max-width:1200px) {
+    .usedCarMainContainer .RightSide .badge {
+        padding: 10px 20px;
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+    .usedCarMainContainer .desc {
+        font-size: 12px;
+    }
+
+    .default-cars-advertise .card-content {
+        padding: 20px 10px 12px 15px;
+    }
+
+    .usedCarMainContainer .singleCarItems p {
+        margin: 0;
+    }
+
+    .default-cars-advertise img {
+        height: 11rem;
+        object-position: bottom;
+    }
+
+    .singleCarItems {
+        padding: 7px;
+    }
+
+    .ActivePageHeader {
+        padding: 0px 0;
+        margin: 0 0 10px 0;
+    }
+}
+
+/* MEDIA QUERY For DESKTOP */
+
+/* MEDIA QUERY For LAPTOP */
+@media screen and (max-width:920px) {
+
+    .usedCarMainContainer .RightSide .badge {
+        padding: 9px 5px 9px 18px;
+        font-size: 10px;
+    }
+
+    .usedCarMainContainer .RightSide .filterItems {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .usedCarMainContainer .sidebar .card-title {
+        font-size: 15px;
+        margin: 5px 0 10px 0;
+        font-weight: 500;
+    }
+
+    .usedCarMainContainer .sidebar .card-title {
+        font-size: 15px;
+    }
+
+    input[type="radio"] {
+        width: 22px;
+        height: 22px;
+    }
+}
+
+/* MEDIA QUERY For LAPTOP */
+
+/* MEDIA QUERY For MOBILE */
+@media screen and (min-width:768px) {
+    .onclickFilterShow {
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .ActivePageHeader .EmptyBox {
+        background: linear-gradient(45deg, #FF802B, #ff802b54);
+    }
+
+    .usedCarMainContainer .RightSide .filterItems {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .onclickFilterShow a {
+        font-size: 14px;
+        color: #FFF;
+        font-weight: 500;
+    }
+
+    .leftSide {
+        /* display: none; */
+        background-color: #FFF;
+        position: absolute;
+        left: -100%;
+        z-index: 1;
+        transition: left 0.5s ease-in-out;
+    }
+
+    .slideIn {
+        left: 0;
+        /* Slide in */
+    }
+
+    .container,
+    .container-sm {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .default-cars-advertise img {
+        height: 9rem;
+    }
+
+    .usedCarMainContainer .RightSide .filterItems {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .ActivePageHeader .d-flex {
+        gap: 0;
+    }
+
+    .usedCarMainContainer {
+        padding: 10px 5px;
+    }
+
+
+    .usedCarMainContainer .RightSide .filterItems {
+        gap: 0;
+    }
+}
+
+/* MEDIA QUERY For MOBILE */

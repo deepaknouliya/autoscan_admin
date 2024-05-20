@@ -1,0 +1,57 @@
+.inner-repeater ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  margin: 0;
+}
+
+.inner-repeater ul li {
+  color: #333;
+  margin: 4px 3px;
+  list-style: none;
+  border-radius: 5px;
+  background: #f2f2f2;
+  padding: 0 8px 0px 10px;
+  border: 1px solid #e3e1e1;
+}
+
+.moderator-table{
+  width: 100%;
+  table-layout: fixed;
+}
+
+.overflow-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.datepicker-container-error {
+  border: 1px solid#f46a6a;
+}
+.end_start_date_required{
+  color:#f46a6a;
+  font-size: 10px;
+}
+.more-text{
+  font-size: 11px;
+  opacity: 0.9;
+}
+
+li.placeHolder {
+  background: transparent !important;
+  padding: 0;
+  border: 0 !important;
+}
+
+.react-bootstrap-table-page-btns-ul {
+  margin: 0;
+}
+
+.pagination-rounded {
+  flex-direction: row-reverse;
+  justify-content: space-between !important;
+  align-items: center !important;
+}

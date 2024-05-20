@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  text-decoration: none !important;
+
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+h2,
+h1 {
+  font-weight: 700;
+}
+
+.l-para {
+  font-size: 23px;
+}
+
+.btn:active {
+  border: none;
+}
+
+.relative {
+  position: relative;
+}
+
+.head {
+  display: flex;
+  padding: 30px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.head .btn {
+  font-weight: 500;
+  color: var(--theme-d-color);
+  font-size: 23px;
+}
+
+@media screen and (min-width:520px) {
+  .mobile-view {
+    display: none;
+  }
+}
+
+@media screen and (max-width:520px) {
+  .desktop-view {
+    display: none;
+  }
+
+  .head h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .head .btn {
+    font-size: 16px;
+  }
+}
+
+.white {
+  color: #FFF;
+}
+
+.link-color {
+  color: #212529
+}
+
+.theme {
+  color: #F96300;
+}
+
+:root {
+  --theme-d-color: #F96300;
+  --theme-l-color: #FFF2E9;
+  --white: #fff;
+  --link-color: #212529;
+}
+
+.bg-none {
+  background: none;
+}
+
+.border-none {
+  border: none;
+}
+
+.W100 {
+  width: 100%;
+}
+
+.l-title {
+  font-size: 34px;
+  line-height: 48.76px;
+  text-align: left;
+}
+
+
+/* recent-searches section starts here  */
+.recent-searches {
+  margin: 40px 0;
+  padding: 20px;
+}
+
+.default-cars-advertise .card {
+  box-shadow: 0px 4px 8px 8px #0000000A;
+  border-radius: 20px;
+  border: 1px solid #dfdbdb;
+}
+
+.default-cars-advertise .card:hover {
+  transform: translateY(-5px);
+  transition: .5s ease-out;
+
+}
+
+.default-cars-advertise .card:hover img {
+  transform: scale(1.1);
+  transition: .5s ease-out;
+}
+
+.default-cars-advertise .card:hover .card-title {
+  color: var(--theme-d-color);
+  transition: .5s step-start;
+}
+
+.default-cars-advertise figure {
+  background: #F0F0F0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  overflow: hidden;
+}
+
+.default-cars-advertise .card-content {
+  padding: 20px;
+}
+
+.default-cars-advertise img {
+  height: 16rem;
+  object-fit: contain;
+}
+
+@media screen and (max-width:820px) {
+
+  .default-cars-advertise .card {
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width:520px) {
+  .default-cars-advertise img {
+    height: 10rem;
+  }
+}
+
+/* recent-searches sections ends here  */
+
+
+/* Default From  */
+
+.form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.form__field {
+  width: 100%;
+  border: 0;
+  border: 1px solid #9b9b9b;
+  outline: 0;
+  color: #000;
+  padding: 11px;
+  background: #FFF;
+  transition: border-color 0.2s;
+}
+
+.form__field::placeholder {
+  color: transparent;
+}
+
+.form__field:placeholder-shown~.form__label {
+  font-size: 15px;
+  cursor: text;
+  top: 26px;
+  color: #000;
+  left: 13px;
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #9b9b9b;
+  background-color: #FFF;
+  padding: 0 6px;
+}
+
+.form__field:focus {
+  padding-bottom: 6px;
+  font-weight: 500;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #FE3663, #FFAB73E0);
+  border-image-slice: 1;
+}
+
+.form__field:focus~.form__label {
+  position: absolute;
+  top: -5px;
+  left: 5px;
+  padding: 2px 20px;
+  display: block;
+  transition: 0.2s;
+  font-size: .8rem;
+  color: #FE7B23;
+  background: #FFF;
+  border-image: linear-gradient(to right, #FE3663, #FFAB73E0);
+  font-weight: 600;
+}
+
+
+/* reset input */
+.form__field:required,
+.form__field:invalid {
+  box-shadow: none;
+}
+
+.whyChooseUS .btn {
+  width: 100%;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: .9rem;
+}
+
+.RequestBtn {
+  background: linear-gradient(90deg, #FF802B 0%, #F96300 100%);
+  color: #FFF;
+
+}
+
+.WhatsapBtn {
+  border: 2px solid #04CB00;
+  gap: 0px;
+  border-radius: 9px;
+  opacity: 0px;
+}
+
+.WhatsapBtn {
+  color: #04CB00;
+  background: #DFFCDE;
+}
+
+.form-btns {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 60px;
+}
+
+.whyChooseUS .card-title {
+
+  font-size: 25px;
+}
+
+
+/* Default From  */
+
+
+/* popular-brands section starts here  */
+.popular-brands {
+  margin: 40px 0;
+  padding: 20px;
+}
+
+.popular-brands .item {
+  box-shadow: rgb(100 100 111 / 19%) 0px 7px 29px 0px;
+  margin: 21px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.popular-brands img {
+  width: 100%;
+}
+
+@media screen and (max-width:520px) {
+
+  .popular-brands {
+    margin: 0px 0;
+  }
+
+  .popular-brands .item {
+    box-shadow: rgb(100 100 111 / 8%) 0px 7px 29px 0px;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .popular-brands .item h4 {
+    font-size: 16px;
+  }
+}
+
+
+/* popular-brands section ends here  */
+
+/* ActivePageHeader  */
+.ActivePageHeader {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ActivePageHeader a {
+  text-decoration: none;
+  font-size: 19px;
+  color: #555;
+}
+
+.ActivePageHeader span {
+  display: flex;
+}
+
+.ActivePageHeader .active {
+  color: var(--theme-d-color);
+  font-weight: 500;
+}
+
+.ActivePageHeader .EmptyBox {
+  background: #D9D9D9;
+  width: 50%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.ActivePageHeader .d-flex {
+  gap: 0 1rem;
+}
+
+@media screen and (max-width:768px) {
+  .ActivePageHeader a {
+    text-decoration: none;
+    font-size: 17px;
+  }
+}
+
+/* ActivePageHeader  */
+
+
+
+/* DefaultTopBanner section starts here  */
+.DefaultTopBanner {
+  background: url('./images/main/top-banner.png');
+  padding: 10rem 0;
+  color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0px 4px 21px 0px #00000005 inset;
+  text-align: center;
+  position: relative;
+  background-size: cover;
+}
+
+.DefaultTopBanner .card-title {
+  font-size: 1.5rem;
+}
+
+
+/* DefaultTopBanner section ends here  */
+
+
+/* testimoial-sect sectio starts here */
+.testimoial-sect {
+  background: url('./images/main/noisy-gradients.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 40px;
+}
+
+.testimoial-sect .item {
+  display: grid;
+  margin: 20px;
+  height: 30vh;
+  grid-template-columns: auto auto;
+}
+
+.testimoial-sect .item img {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  height: 30vh;
+  object-fit: cover;
+}
+
+.testimoial-sect .reviews {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background: #FFF;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.testimoial-sect .reviews p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.testimoial-sect .reviews .clientReviews {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.testimoial-sect .reviews .clientName {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+@media screen and (max-width:520px) {
+  .testimoial-sect {
+    padding: 40px 0;
+  }
+
+  .testimoial-sect .reviews .clientReviews {
+    font-size: 12px;
+  }
+
+  .testimoial-sect .reviews {
+    padding: 15px;
+  }
+
+  .testimoial-sect .reviews .clientName {
+    font-size: 15px;
+  }
+
+  .testimoial-sect .owl-item img {
+    width: 150px;
+    height: 25vh;
+  }
+
+  .testimoial-sect .item {
+    margin: 20px 0;
+    height: 25vh;
+  }
+}

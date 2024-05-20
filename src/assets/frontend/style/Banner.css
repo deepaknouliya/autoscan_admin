@@ -1,0 +1,517 @@
+/* banner-section section starts from here  */
+
+.banner-section {
+    padding: 60px 0px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.banner-section::after {
+
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(../images/main/BannerBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .4;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+
+.banner-section .left-bio-side .card {
+    border: none;
+}
+
+.banner-section .left-bio-side {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.banner-section a {
+    text-decoration: none;
+}
+
+
+
+
+
+.banner-section .left-bio-side .bio-content {
+    padding: 30px 50px 30px 20px;
+    border-radius: 10px;
+    border: 1px solid #F96300;
+    border-radius: 0 0 20px 20px;
+    border-top: none;
+}
+
+.banner-section .left-bio-side img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+    height: 20rem;
+}
+
+
+.hover14 figure {
+    position: relative;
+}
+
+.banner-section .left-bio-side::before {
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+}
+
+.banner-section .left-bio-side:hover::before {
+    -webkit-animation: shine .75s;
+    animation: shine .75s;
+}
+
+@-webkit-keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
+
+@keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
+
+.banner-section .RightServicesSide .card::before {
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    background: linear-gradient(to right, #ff802b0a 0%, rgb(255 128 43 / 29%) 100%);
+    -webkit-transform: skewX(-15deg);
+    transform: skewX(-25deg);
+}
+
+.banner-section .RightServicesSide .card:hover::before {
+    -webkit-animation: shine .75s;
+    animation: shine 1s;
+}
+
+.banner-section .left-bio-side h2 {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: left;
+}
+
+.banner-section .left-bio-side .theme-color {
+    color: #F96300;
+    text-shadow: -1px 2px 3px #ff802b;
+}
+
+
+
+.banner-section .RightServicesSide .card:hover .btn {
+    transform: translateY(-5px);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.banner-section .RightServicesSide .card {
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+        linear-gradient(180deg, rgba(255, 128, 43, 0.05) 0%, rgba(255, 255, 255, 0) 100%);
+    align-items: center;
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+    border-radius: 21px;
+    border: 1px solid #F96300;
+    height: 15rem;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.banner-section .RightServicesSide .arrow-img {
+    width: 35px;
+    float: right;
+    transform: rotate(314deg);
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+.banner-section .RightServicesSide .card:hover .arrow-img {
+    transform: rotate(130deg);
+}
+
+.banner-section .RightServicesSide .RightTop .arrow-img2 {
+    transform: rotate(134deg);
+}
+
+.banner-section .RightServicesSide .card:hover .arrow-img2 {
+    transform: rotate(320deg);
+}
+
+.banner-section .RightServicesSide .RightTop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.9rem .5rem;
+}
+
+
+
+.banner-section .RightServicesSide .card-body {
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.banner-section .RightServicesSide a {
+    color: #000;
+}
+
+.banner-section .RightServicesSide .badge {
+    background: linear-gradient(90deg, rgba(254, 54, 99, 0.88) 0%, rgba(255, 171, 115, 0.88) 100%);
+    position: absolute;
+    top: 0;
+    border-bottom-right-radius: 34px;
+    padding: 8px 50px;
+    border-top-left-radius: 30px;
+    color: #FFF;
+    left: 0;
+}
+
+.banner-section .RightServicesSide .span-item3 {
+    grid-column: span 2;
+}
+
+.banner-section .RightServicesSide .span-item3 .card-body {
+    height: auto;
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    margin: 0;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.banner-section .RightServicesSide .span-item3 .card {
+    height: 19.4rem;
+
+}
+
+.banner-section .RightServicesSide .span-item3 .card-title {
+    position: relative;
+    top: 12px;
+    z-index: 1;
+}
+
+.banner-section .RightServicesSide .card-body .btn {
+    padding: 0;
+    color: #FF802B;
+    font-weight: 600;
+    font-size: 19px;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.banner-section .span-item3 .card {
+    position: relative;
+}
+
+.banner-section .span-item3 .card img {
+    width: 80%;
+    position: absolute;
+    float: right;
+    z-index: 1;
+    right: 0;
+    top: 50px;
+}
+
+.banner-section .span-item3 .card::after {
+    content: '';
+    position: absolute;
+    right: 20%;
+    top: 0;
+    width: 40%;
+    height: 100%;
+    background: #FF802B;
+    clip-path: polygon(55% 0, 100% 0, 48% 100%, 0 100%);
+}
+
+.banner-section .theme_btn {
+
+    background: linear-gradient(90deg, #FF802B 0%, #F96300 100%);
+}
+
+
+
+.button {
+    flex: 1 1 auto;
+    margin: 10px 0;
+    padding: 6px 35px;
+    border: 2px solid #F96300;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 15px;
+    display: inline-block;
+    overflow: hidden;
+    z-index: 2;
+    color: #FFF;
+    transition: all 0.3s ease 0s;
+    font-weight: 600;
+    z-index: 2;
+    clip-path: polygon(0 0, 100% 0%, 96% 100%, 0% 100%);
+}
+
+.button:after {
+    position: absolute;
+    transition: 0.3s;
+    content: '';
+    width: 100%;
+    left: 0%;
+    z-index: -1;
+    bottom: 0;
+    height: 100%;
+    background: linear-gradient(90deg, #FF802B 0%, #F96300 100%);
+
+}
+
+
+
+
+.button:hover:after {
+    width: 20px;
+    left: 0;
+}
+
+.button:hover {
+    font-weight: 600;
+    border: 2px solid #F96300;
+    color: #F96300;
+    cursor: pointer;
+}
+
+
+
+
+
+@media screen and (max-width:1300px) {
+    .main .booking-details-div .details {
+        padding: 10px;
+    }
+
+    .main .booking-side h3 {
+        font-size: 22px;
+        height: 175px;
+        display: flex;
+        align-items: self-start;
+        background: linear-gradient(45deg, #fd761d17, #fd761d26);
+        padding: 20px;
+        border-radius: 10px;
+
+    }
+
+    .banner-section .RightServicesSide .span-item3 .card {
+        height: 19rem;
+    }
+
+    .banner-section .span-item3 .card::after {
+        right: 12%;
+    }
+
+    .main .booking-details-div img {
+        width: 100%;
+    }
+
+    .main .booking-details-div .car-type-name {
+        font-size: 18px;
+    }
+
+    .main .booking-details-div .price-vary-from p {
+        font-size: 15px;
+    }
+
+    .main .booking-side p {
+        font-size: 13px;
+    }
+
+    .main .booking-side .car-info {
+        left: 10px;
+        width: 40%;
+    }
+
+    .main .booking-side .Default img {
+        width: 70%;
+    }
+
+    .main .booking-side .car-info2 {
+        width: 40%;
+    }
+
+    .main .booking-details-div .details .booking-category span {
+        padding: 4px 2px;
+        line-height: 40px;
+        font-size: 14px;
+        margin: 0;
+    }
+
+
+}
+
+@media screen and (max-width:1030px) {
+    .banner-section .left-bio-side img {
+        height: 19.5rem;
+    }
+
+    .banner-section .left-bio-side .bio-content {
+        padding: 20px;
+    }
+
+    .banner-section .left-bio-side h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .banner-section .RightServicesSide .card {
+        height: 12rem;
+    }
+
+    .banner-section .RightServicesSide .card-body .btn {
+        font-size: 15px;
+    }
+
+    .card-title {
+        font-size: 16px;
+    }
+
+    .banner-section .span-item3 .card img {
+        width: 90%;
+        top: 82px;
+    }
+
+}
+
+@media screen and (max-width:769px) {
+    .banner-section .left-bio-side img {
+        height: 15.5rem;
+    }
+
+    .button {
+        font-size: 12px;
+        padding: 10px 10px 10px 30px;
+    }
+
+    .banner-section .RightServicesSide .card {
+        height: 10rem;
+    }
+
+    .banner-section .RightServicesSide .card-body {
+        padding: 0;
+    }
+
+    .banner-section .RightServicesSide .span-item3 .card {
+        height: 16.3rem;
+    }
+
+    .banner-section .left-bio-side h2 {
+        font-size: 19px;
+        line-height: 26px;
+    }
+
+    .card-title {
+        font-size: 14px;
+    }
+
+    .banner-section .left-bio-side {
+        margin-bottom: 20px;
+    }
+
+    .banner-section .RightServicesSide .card-body .btn {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width:520px) {
+    .l-para {
+        font-size: 16px;
+    }
+
+    .banner-section {
+        padding: 20px 0px;
+    }
+
+    .banner-section .RightServicesSide .card-body {
+        padding: 0;
+    }
+
+    .banner-section .RightServicesSide .badge {
+        padding: 7px 25px;
+    }
+
+    .banner-section .left-bio-side img {
+        height: auto;
+    }
+
+    .banner-section .RightServicesSide .arrow-img {
+        right: 12px;
+        top: 7px;
+        width: 30px;
+    }
+
+    .banner-section .span-item3 .card::after {
+        right: 10%;
+    }
+
+    .button {
+        font-size: 11px;
+        padding: 10px 25px 10px 30px;
+    }
+
+    .banner-section .span-item3 .card img {
+        width: 100%;
+        top: 65px;
+    }
+
+    .banner-section .left-bio-side h2 {
+        font-size: 19px;
+        line-height: 27px;
+    }
+
+    .banner-section .left-bio-side {
+        margin-bottom: 0;
+    }
+
+    .banner-section .RightServicesSide .RightTop {
+        gap: 1rem;
+    }
+
+    .banner-section .RightServicesSide {
+        margin-top: 15px;
+    }
+}
+
+/* banner-section section  Ends here  */

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <g id="Group_44954" data-name="Group 44954" transform="translate(68 -671)">
+    <rect id="Rectangle_63941" data-name="Rectangle 63941" width="25" height="25" transform="translate(-68 671)" fill="none"/>
+    <g id="Group_44937" data-name="Group 44937" transform="translate(-66.75 672.25)">
+      <g id="Group_44577" data-name="Group 44577">
+        <path id="Path_89202" data-name="Path 89202" d="M7.778,13.5H5.018a.768.768,0,0,0-.7.449L.75,20.75H22.2l-3.569-6.805a.768.768,0,0,0-.7-.449H15.292" fill="none" stroke="#0c66e4" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"/>
+        <line id="Line_351" data-name="Line 351" x2="4.302" y2="4.638" transform="translate(3.565 16.112)" fill="none" stroke="#0c66e4" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"/>
+        <line id="Line_352" data-name="Line 352" y1="3.627" x2="12.002" transform="translate(7.563 16.112)" fill="none" stroke="#0c66e4" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"/>
+        <line id="Line_353" data-name="Line 353" y2="3.5" transform="translate(16.257 17.25)" fill="none" stroke="#0c66e4" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"/>
+        <path id="Path_89203" data-name="Path 89203" d="M10.962,10.216l-.631,3.615,1.226,1.207a.106.106,0,0,0,.149,0l1.225-1.207-.793-4.952" fill="none" stroke="#0c66e4" strokeLinecap="round" stroke-miterlimit="10" strokeWidth="1.5"/>
+        <path id="Path_89204" data-name="Path 89204" d="M17.12,11.651v-1.2a1.952,1.952,0,0,0-1.36-1.861l-2.187-.7a.917.917,0,0,0-1.048.378l-.387.6H10.956l-.391-.61a.917.917,0,0,0-1.039-.38L7.216,8.6a1.951,1.951,0,0,0-1.38,1.866v1.188" fill="none" stroke="#0c66e4" strokeLinecap="round" stroke-miterlimit="10" strokeWidth="1.5"/>
+        <rect id="Rectangle_63923" data-name="Rectangle 63923" width="4.645" height="5.42" rx="2.217" transform="translate(9.166 0.75)" fill="none" stroke="#0c66e4" strokeLinecap="round" stroke-miterlimit="10" strokeWidth="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

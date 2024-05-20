@@ -1,0 +1,380 @@
+/* header  section starts from here */
+
+#header {
+    color: #fff;
+    background: #FFF;
+    top: 0;
+    box-shadow: 0px 0px 16px 8px #00000024;
+    transition: top 3s;
+    width: 100%;
+    z-index: 1000;
+    height: 80px;
+    line-height: 80px;
+}
+
+#header.active {
+    top: 0;
+    width: 100%;
+    padding: 0;
+    position: fixed;
+
+    /* Bring the header to the top */
+}
+
+#header .navbar-brand img {
+    width: 190px;
+    height: 65px;
+    object-fit: contain;
+}
+
+/* #header {
+    box-shadow: 0px 0px 16px 8px #00000024;
+    top: 0;
+    width: 100%;
+    background: #FFF;
+} */
+
+#header nav {
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header .navbar-nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#header .navbar-nav .btn {
+    background: #DFFCDE;
+    border: 2px solid #04CB00;
+    margin-left: 30px;
+    color: #04CB00;
+    font-weight: 600;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+}
+
+#header .btn ion-icon {
+    color: #04CB00;
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+    top: -1px;
+}
+
+.nav-items a {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21.13px;
+    text-align: left;
+}
+
+/* header section Ends here  */
+
+
+.header {
+    z-index: 1000;
+    -webkit-transition: height 1s;
+    -moz-transition: height 1s;
+    transition: height 1;
+
+}
+
+.header.shrink {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #FFF;
+    height: 100px;
+    line-height: 80px;
+}
+
+.header li a {
+    display: block;
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+    transition: 0.4s all;
+}
+
+.header .dropdown a {
+    padding: 20px 20px;
+    font-weight: 700;
+
+}
+
+.header li.navbar-dropdown {
+    position: relative;
+}
+
+.header li.navbar-dropdown:hover .dropdown {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.header li.navbar-dropdown .dropdown {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    padding: 20px 0;
+    top: 100%;
+    transform: translateY(50px);
+    left: 0;
+    width: 250px;
+    background-color: #fff;
+    box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.3);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    z-index: 111;
+    transition: 0.4s all;
+}
+
+.header li.navbar-dropdown .dropdown a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+.header .navbar-dropdown .dropdown a:hover {
+    padding-left: 30px;
+}
+
+/* default Modal  */
+.defaultModal {
+    color: #242424;
+    background: #444444a3;
+}
+
+.defaultModal .modal-title {
+    color: #242424;
+    text-shadow: 0 0px 1px black;
+}
+
+.defaultModal button.close.border-none {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    width: 30px;
+    height: 32px;
+    z-index: 1000;
+    font-size: 22px;
+    font-weight: 600;
+    transform: translateY(-100px);
+}
+
+.defaultModal .button {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.defaultModal .header li a:hover {
+    color: #FE7D27;
+}
+
+.defaultModal img {
+    width: 100px;
+    padding: 0px 0 23px 0;
+}
+
+
+
+.defaultModal .modal-content:hover button.close.border-none {
+    transform: translateY(0);
+    transition: 1s ease;
+}
+
+.modal.show .modal-dialog {
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.s-anchor {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.defaultModal .form__field:placeholder-shown~.form__label {
+    font-size: 14px;
+    left: 10px;
+}
+
+.defaultModal .loginFromAnother {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+.defaultModal .modal-content {
+    padding: 30px;
+    border-radius: 50px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.defaultModal .send-otp-section {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 1rem;
+}
+
+.defaultModal #verifyOtpButton {
+    background: #F96300;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 2px;
+}
+
+input#otpInput {
+    padding: 10px;
+}
+
+#DealerLoginModal .button {
+    margin: 10px;
+}
+
+#DealerLoginModal .form-footer .s-para {
+    font-size: 12px;
+}
+
+#DealerLoginModal .form-footer .s-para a:hover {
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.validationMessage {
+    font-size: 13px;
+    margin: 5px;
+    color: #F96300;
+    font-weight: 500;
+}
+
+/* default Modal  */
+
+@media screen and (max-width:768px) {
+    .nav-items {
+        position: absolute;
+        right: 24px;
+        top: 18px;
+    }
+
+    .shrink .nav-items {
+        top: 35px;
+    }
+
+    #header .navbar-brand img {
+        width: 150px;
+        height: 50px;
+    }
+
+    .nav-items a {
+        font-size: 16px;
+    }
+
+    #header .btn {
+
+        margin-left: 35px;
+        color: #F96300;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .nav-items {
+        right: 0;
+        top: 16px;
+    }
+
+    .shrink .nav-items {
+        top: 27px;
+    }
+
+    #header .btn {
+        margin-left: 15px;
+        color: #F96300;
+        font-size: 11px;
+        font-weight: 500;
+        padding: 2px 10px;
+    }
+
+    .nav-items a {
+        font-size: 13px;
+    }
+
+    #header img {
+        width: 100px;
+        height: 50px;
+        position: relative;
+        z-index: 100;
+    }
+
+    .header.shrink {
+
+        height: 75px;
+        line-height: 45px;
+    }
+
+    .nav-items {
+        top: 27px;
+    }
+
+    #header .navbar-brand img {
+        width: 100px;
+        height: 50px;
+        position: relative;
+        left: -8px;
+    }
+
+    #header .navbar-nav .btn {
+        margin-left: 5px;
+    }
+
+    .defaultModal {
+        padding-right: 0 !important;
+    }
+
+    .defaultModal .modal-content {
+        padding: 10px;
+    }
+
+    .defaultModal h5.modal-title {
+        font-size: 15px;
+    }
+
+    #header .defaultModal img {
+        width: 80px;
+        height: auto;
+
+    }
+
+    .modal.show .modal-dialog {
+        height: 100%;
+    }
+
+    #header .btn ion-icon {
+
+        font-size: 17px;
+    }
+
+    .defaultModal .button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .defaultModal img {
+        padding: 0;
+    }
+}

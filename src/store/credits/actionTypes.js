@@ -1,0 +1,13 @@
+/* Credits */
+export const GET_INVESTORS = "GET_INVESTORS"
+export const GET_INVESTORS_FAIL = "GET_INVESTORS_FAIL"
+export const GET_INVESTORS_SUCCESS = "GET_INVESTORS_SUCCESS"
+
+export const ADD_CREDIT = "ADD_CREDIT"
+export const ADD_CREDIT_SUCCESS = "ADD_CREDIT_SUCCESS"
+export const ADD_CREDIT_FAIL = "ADD_CREDIT_FAIL"
+
+// alert box
+export const CLOSE_ALERT_BOX = "CLOSE_ALERT_BOX"
+export const CANCEL_ADD_CREDIT = "CANCEL_ADD_CREDIT"
+

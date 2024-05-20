@@ -1,0 +1,1318 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    text-decoration: none !important;
+
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+h2,
+h1 {
+    font-weight: 700;
+}
+
+.l-para {
+    font-size: 23px;
+}
+
+.btn:active {
+    border: none;
+}
+
+.relative {
+    position: relative;
+}
+
+.head {
+    display: flex;
+    padding: 30px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head .btn {
+    font-weight: 500;
+    color: var(--theme-d-color);
+    font-size: 23px;
+}
+
+@media screen and (min-width:520px) {
+    .mobile-view {
+        display: none;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .desktop-view {
+        display: none;
+    }
+
+    .head h2 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .head .btn {
+        font-size: 16px;
+    }
+}
+
+.white {
+    color: #FFF !important;
+}
+
+.link-color {
+    color: #212529
+}
+
+.theme {
+    color: #F96300;
+}
+
+:root {
+    --theme-d-color: #F96300;
+    --theme-l-color: #FFF2E9;
+    --white: #fff;
+    --link-color: #212529;
+}
+
+.bg-none {
+    background: none !important;
+}
+
+.border-none {
+    border: none !important;
+}
+
+.W100 {
+    width: 100%;
+}
+
+.l-title {
+    font-size: 34px;
+    line-height: 48.76px;
+    text-align: left;
+}
+
+
+
+
+/* banner-section section starts from here  */
+
+
+/* banner-section section starts from here  */
+
+.banner-section {
+    padding: 60px 0px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.banner-section::after {
+
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(../images/main/BannerBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .4;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+
+.banner-section .left-bio-side .card {
+    border: none;
+}
+
+.banner-section .left-bio-side {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.banner-section a {
+    text-decoration: none;
+}
+
+
+
+
+
+.banner-section .left-bio-side .bio-content {
+    padding: 30px 50px 30px 20px;
+    border-radius: 10px;
+    border: 1px solid #F96300;
+    border-radius: 0 0 20px 20px;
+    border-top: none;
+}
+
+.banner-section .left-bio-side img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+    height: 20rem;
+}
+
+
+.hover14 figure {
+    position: relative;
+}
+
+.banner-section .left-bio-side::before {
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+}
+
+.banner-section .left-bio-side:hover::before {
+    -webkit-animation: shine .75s;
+    animation: shine .75s;
+}
+
+@-webkit-keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
+
+@keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
+
+.banner-section .RightServicesSide .card::before {
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    background: linear-gradient(to right, #ff802b0a 0%, rgb(255 128 43 / 29%) 100%);
+    -webkit-transform: skewX(-15deg);
+    transform: skewX(-25deg);
+}
+
+.banner-section .RightServicesSide .card:hover::before {
+    -webkit-animation: shine .75s;
+    animation: shine 1s;
+}
+
+.banner-section .left-bio-side h2 {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: left;
+}
+
+.banner-section .left-bio-side .theme-color {
+    color: #F96300;
+    text-shadow: -1px 2px 3px #ff802b;
+}
+
+
+
+.banner-section .RightServicesSide .card:hover .btn {
+    transform: translateY(-5px);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.banner-section .RightServicesSide .card {
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+        linear-gradient(180deg, rgba(255, 128, 43, 0.05) 0%, rgba(255, 255, 255, 0) 100%);
+    align-items: center;
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+    border-radius: 21px;
+    border: 1px solid #F96300;
+    height: 15rem;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.banner-section .RightServicesSide .arrow-img {
+    width: 35px;
+    float: right;
+    transform: rotate(314deg);
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+.banner-section .RightServicesSide .card:hover .arrow-img {
+    transform: rotate(130deg);
+}
+
+.banner-section .RightServicesSide .RightTop .arrow-img2 {
+    transform: rotate(134deg);
+}
+
+.banner-section .RightServicesSide .card:hover .arrow-img2 {
+    transform: rotate(320deg);
+}
+
+.banner-section .RightServicesSide .RightTop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.9rem .5rem;
+}
+
+
+
+.banner-section .RightServicesSide .card-body {
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.banner-section .RightServicesSide a {
+    color: #000;
+}
+
+.banner-section .RightServicesSide .badge {
+    background: linear-gradient(90deg, rgba(254, 54, 99, 0.88) 0%, rgba(255, 171, 115, 0.88) 100%);
+    position: absolute;
+    top: 0;
+    border-bottom-right-radius: 34px;
+    padding: 8px 50px;
+    border-top-left-radius: 30px;
+    color: #FFF;
+    left: 0;
+}
+
+.banner-section .RightServicesSide .span-item3 {
+    grid-column: span 2;
+}
+
+.banner-section .RightServicesSide .span-item3 .card-body {
+    height: auto;
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    margin: 0;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.banner-section .RightServicesSide .span-item3 .card {
+    height: 19.4rem;
+
+}
+
+.banner-section .RightServicesSide .span-item3 .card-title {
+    position: relative;
+    top: 12px;
+    z-index: 1;
+}
+
+.banner-section .RightServicesSide .card-body .btn {
+    padding: 0;
+    color: #FF802B;
+    font-weight: 600;
+    font-size: 19px;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.banner-section .span-item3 .card {
+    position: relative;
+}
+
+.banner-section .span-item3 .card img {
+    width: 80%;
+    position: absolute;
+    float: right;
+    z-index: 1;
+    right: 0;
+    top: 50px;
+}
+
+.banner-section .span-item3 .card::after {
+    content: '';
+    position: absolute;
+    right: 20%;
+    top: 0;
+    width: 40%;
+    height: 100%;
+    background: #FF802B;
+    clip-path: polygon(55% 0, 100% 0, 48% 100%, 0 100%);
+}
+
+.banner-section .theme_btn {
+
+    background: linear-gradient(90deg, #FF802B 0%, #F96300 100%);
+}
+
+
+
+.button {
+    flex: 1 1 auto;
+    margin: 10px 0;
+    padding: 6px 35px;
+    border: 2px solid #F96300;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 15px;
+    display: inline-block;
+    overflow: hidden;
+    z-index: 2;
+    color: #FFF;
+    transition: all 0.3s ease 0s;
+    font-weight: 600;
+    z-index: 2;
+    clip-path: polygon(0 0, 100% 0%, 96% 100%, 0% 100%);
+}
+
+.button:after {
+    position: absolute;
+    transition: 0.3s;
+    content: '';
+    width: 100%;
+    left: 0%;
+    z-index: -1;
+    bottom: 0;
+    height: 100%;
+    background: linear-gradient(90deg, #FF802B 0%, #F96300 100%);
+
+}
+
+
+
+
+.button:hover:after {
+    width: 20px;
+    left: 0;
+}
+
+.button:hover {
+    font-weight: 600;
+    border: 2px solid #F96300;
+    color: #F96300;
+    cursor: pointer;
+}
+
+
+
+
+
+@media screen and (max-width:1300px) {
+    .main .booking-details-div .details {
+        padding: 10px;
+    }
+
+    .main .booking-side h3 {
+        font-size: 22px;
+        height: 175px;
+        display: flex;
+        align-items: self-start;
+        background: linear-gradient(45deg, #fd761d17, #fd761d26);
+        padding: 20px;
+        border-radius: 10px;
+
+    }
+
+    .banner-section .RightServicesSide .span-item3 .card {
+        height: 19rem;
+    }
+
+    .banner-section .span-item3 .card::after {
+        right: 12%;
+    }
+
+    .main .booking-details-div img {
+        width: 100%;
+    }
+
+    .main .booking-details-div .car-type-name {
+        font-size: 18px;
+    }
+
+    .main .booking-details-div .price-vary-from p {
+        font-size: 15px;
+    }
+
+    .main .booking-side p {
+        font-size: 13px;
+    }
+
+    .main .booking-side .car-info {
+        left: 10px;
+        width: 40%;
+    }
+
+    .main .booking-side .Default img {
+        width: 70%;
+    }
+
+    .main .booking-side .car-info2 {
+        width: 40%;
+    }
+
+    .main .booking-details-div .details .booking-category span {
+        padding: 4px 2px;
+        line-height: 40px;
+        font-size: 14px;
+        margin: 0;
+    }
+
+
+}
+
+@media screen and (max-width:1030px) {
+    .banner-section .left-bio-side img {
+        height: 19.5rem;
+    }
+
+    .banner-section .left-bio-side .bio-content {
+        padding: 20px;
+    }
+
+    .banner-section .left-bio-side h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .banner-section .RightServicesSide .card {
+        height: 12rem;
+    }
+
+    .banner-section .RightServicesSide .card-body .btn {
+        font-size: 15px;
+    }
+
+    .card-title {
+        font-size: 16px;
+    }
+
+    .banner-section .span-item3 .card img {
+        width: 90%;
+        top: 82px;
+    }
+
+}
+
+@media screen and (max-width:769px) {
+    .banner-section .left-bio-side img {
+        height: 15.5rem;
+    }
+
+    .button {
+        font-size: 12px;
+        padding: 10px 10px 10px 30px;
+    }
+
+    .banner-section .RightServicesSide .card {
+        height: 10rem;
+    }
+
+    .banner-section .RightServicesSide .card-body {
+        padding: 0;
+    }
+
+    .banner-section .RightServicesSide .span-item3 .card {
+        height: 16.3rem;
+    }
+
+    .banner-section .left-bio-side h2 {
+        font-size: 19px;
+        line-height: 26px;
+    }
+
+    .card-title {
+        font-size: 14px;
+    }
+
+    .banner-section .left-bio-side {
+        margin-bottom: 20px;
+    }
+
+    .banner-section .RightServicesSide .card-body .btn {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width:520px) {
+    .l-para {
+        font-size: 16px;
+    }
+
+    .banner-section {
+        padding: 20px 0px;
+    }
+
+    .banner-section .RightServicesSide .card-body {
+        padding: 0;
+    }
+
+    .banner-section .RightServicesSide .badge {
+        padding: 7px 25px;
+    }
+
+    .banner-section .left-bio-side img {
+        height: auto;
+    }
+
+    .banner-section .RightServicesSide .arrow-img {
+        right: 12px;
+        top: 7px;
+        width: 30px;
+    }
+
+    .banner-section .span-item3 .card::after {
+        right: 10%;
+    }
+
+    .button {
+        font-size: 11px;
+        padding: 10px 25px 10px 30px;
+    }
+
+    .banner-section .span-item3 .card img {
+        width: 100%;
+        top: 65px;
+    }
+
+    .banner-section .left-bio-side h2 {
+        font-size: 19px;
+        line-height: 27px;
+    }
+
+    .banner-section .left-bio-side {
+        margin-bottom: 0;
+    }
+
+    .banner-section .RightServicesSide .RightTop {
+        gap: 1rem;
+    }
+
+    .banner-section .RightServicesSide {
+        margin-top: 15px;
+    }
+}
+
+/* banner-section section  Ends here  */
+
+
+
+
+/* highlightsServes section starts here  */
+.highlightsServes {
+    position: relative;
+    background: #FFFFFF;
+    background: linear-gradient(272.28deg, #3E4DD9 -9.09%, #2BAAFF 119.31%);
+
+    padding: 40px;
+}
+
+.highlightsServes::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/main/Rectangle70.png');
+    background-repeat: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.highlightsServes .card-title {
+    font-size: 22px;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+}
+
+.highlightsServes .card-text {
+    font-size: 13px;
+    position: relative;
+    z-index: 1;
+}
+
+@media screen and (max-width:820px) {
+    .highlightsServes {
+        padding: 40px 0;
+    }
+
+    .default-cars-advertise img {
+        height: 10rem;
+        object-fit: contain;
+        object-position: center;
+    }
+}
+
+/* highlightsServes section end  here  */
+
+
+
+/* recent-searches section starts here  */
+.recent-searches {
+    margin: 40px 0;
+    padding: 20px;
+}
+
+.default-cars-advertise .card {
+    box-shadow: 0px 4px 8px 8px #0000000A;
+    border-radius: 20px;
+    border: 1px solid #dfdbdb;
+}
+
+.default-cars-advertise .card:hover {
+    transform: translateY(-5px);
+    transition: .5s ease-out;
+
+}
+
+.default-cars-advertise .card:hover img {
+    transform: scale(1.1);
+    transition: .5s ease-out;
+}
+
+.default-cars-advertise .card:hover .card-title {
+    color: var(--theme-d-color);
+    transition: .5s step-start;
+}
+
+.default-cars-advertise figure {
+    background: #F0F0F0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+}
+
+.default-cars-advertise .card-content {
+    padding: 20px;
+}
+
+.default-cars-advertise img {
+    height: 16rem;
+    object-fit: contain;
+}
+
+@media screen and (max-width:820px) {
+
+    .default-cars-advertise .card {
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .default-cars-advertise img {
+        height: 10rem;
+    }
+}
+
+/* recent-searches sections ends here  */
+
+
+
+
+/* trendingSearches section starts here  */
+.trendingSearches {
+    margin: 40px 0;
+    padding: 20px;
+}
+
+@media screen and (max-width:520px) {
+    .trendingSearches .head {
+        display: block;
+    }
+
+    .trendingSearches {
+        margin: 0;
+        padding: 0 20px;
+    }
+}
+
+/* trendingSearches section ends here  */
+
+/* popular-brands section starts here  */
+.popular-brands {
+    margin: 40px 0;
+    padding: 20px;
+}
+
+.popular-brands .item {
+    box-shadow: rgb(100 100 111 / 19%) 0px 7px 29px 0px;
+    margin: 21px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.popular-brands img {
+    width: 100%;
+}
+
+@media screen and (max-width:520px) {
+
+    .popular-brands {
+        margin: 0px 0;
+    }
+
+    .popular-brands .item {
+        box-shadow: rgb(100 100 111 / 8%) 0px 7px 29px 0px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .popular-brands .item h4 {
+        font-size: 16px;
+    }
+}
+
+
+/* popular-brands section ends here  */
+
+
+/* testimoial-sect sectio starts here */
+.testimoial-sect {
+    background: url('../images/main/noisy-gradients.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+}
+
+.testimoial-sect .item {
+    display: grid;
+    margin: 20px;
+    height: 30vh;
+    grid-template-columns: auto auto;
+}
+
+.testimoial-sect .item img {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.testimoial-sect .reviews {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: #FFF;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.testimoial-sect .reviews p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.testimoial-sect .reviews .clientReviews {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.testimoial-sect .reviews .clientName {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+@media screen and (max-width:520px) {
+    .testimoial-sect {
+        padding: 40px 0;
+    }
+
+    .testimoial-sect .reviews .clientReviews {
+        font-size: 12px;
+    }
+
+    .testimoial-sect .reviews {
+        padding: 15px;
+    }
+
+    .testimoial-sect .reviews .clientName {
+        font-size: 15px;
+    }
+
+    .testimoial-sect .owl-item img {
+        width: 150px;
+        height: 25vh;
+    }
+
+    .testimoial-sect .item {
+        margin: 20px 0;
+        height: 25vh;
+    }
+}
+
+/* ActivePageHeader  */
+.ActivePageHeader {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ActivePageHeader a {
+    text-decoration: none;
+    font-size: 19px;
+    color: #555;
+}
+
+.ActivePageHeader span {
+    display: flex;
+}
+
+.ActivePageHeader .active {
+    color: var(--theme-d-color);
+    font-weight: 500;
+}
+
+.ActivePageHeader .EmptyBox {
+    background: #D9D9D9;
+    width: 50%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.ActivePageHeader .d-flex {
+    gap: 0 1rem;
+}
+
+@media screen and (max-width:768px) {
+    .ActivePageHeader a {
+        text-decoration: none;
+        font-size: 17px;
+    }
+}
+
+/* ActivePageHeader  */
+
+
+
+
+/* DefaultTopBanner section starts here  */
+.DefaultTopBanner {
+    background: url('../images/main/top-banner.png');
+    padding: 10rem 0;
+    color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 4px 21px 0px #00000005 inset;
+    text-align: center;
+    position: relative;
+    background-size: cover;
+}
+
+.DefaultTopBanner .card-title {
+    font-size: 1.5rem;
+}
+
+
+/* DefaultTopBanner section ends here  */
+
+
+/* Default From  */
+
+.form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.form__field {
+    width: 100%;
+    border: 0;
+    border: 1px solid #9b9b9b;
+    outline: 0;
+    color: #000;
+    padding: 11px;
+    background: #FFF;
+    transition: border-color 0.2s;
+}
+
+.form__field::placeholder {
+    color: transparent;
+}
+
+.form__field:placeholder-shown~.form__label {
+    font-size: 15px;
+    cursor: text;
+    top: 26px;
+    color: #000;
+    left: 13px;
+}
+
+.form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #9b9b9b;
+    background-color: #FFF;
+    padding: 0 6px;
+}
+
+.form__field:focus {
+    padding-bottom: 6px;
+    font-weight: 500;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #FE3663, #FFAB73E0);
+    border-image-slice: 1;
+}
+
+.form__field:focus~.form__label {
+    position: absolute;
+    top: -5px;
+    left: 5px;
+    padding: 2px 20px;
+    display: block;
+    transition: 0.2s;
+    font-size: .8rem;
+    color: #FE7B23;
+    background: #FFF;
+    border-image: linear-gradient(to right, #FE3663, #FFAB73E0);
+    font-weight: 600;
+}
+
+
+/* reset input */
+.form__field:required,
+.form__field:invalid {
+    box-shadow: none;
+}
+
+.whyChooseUS .btn {
+    width: 100%;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: .9rem;
+}
+
+.RequestBtn {
+    background: linear-gradient(90deg, #FF802B 0%, #F96300 100%);
+    color: #FFF;
+
+}
+
+.WhatsapBtn {
+    border: 2px solid #04CB00;
+    gap: 0px;
+    border-radius: 9px;
+    opacity: 0px;
+}
+
+.WhatsapBtn {
+    color: #04CB00;
+    background: #DFFCDE;
+}
+
+.form-btns {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 60px;
+}
+
+.whyChooseUS .card-title {
+
+    font-size: 25px;
+}
+
+
+/* Default From  */
+
+/* faqs  */
+.faqs .accordion {
+    border: none;
+}
+
+.accordion {
+    margin-top: 15px;
+    background: linear-gradient(to bottom right, #FFF, #f7f7f7);
+    border-radius: 3px;
+    padding: 0;
+    border: 1px solid #A8A8A8;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 0 10px 15px -20px rgb(0 0 0 / 15%), 0 30px 45px -30px rgb(0 0 0 / 0%), 0 80px 55px -30px rgb(0 0 0 / 3%);
+}
+
+.accordion-header {
+    padding: 20px 10px;
+}
+
+.accordion-item {
+    border-right: none;
+    border-left: none;
+}
+
+.heading {
+    color: #000000;
+    font-size: 17px;
+    border-bottom: 1px solid #e7e7e7;
+    letter-spacing: 0.8px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.heading:nth-last-child(2) {
+    border-bottom: 0;
+}
+
+.heading:hover {
+    background: linear-gradient(45deg, #FF7E28, #ff7e28c2);
+}
+
+.heading:first-child:hover {
+    border-radius: 3px 3px 0 0;
+}
+
+.heading:nth-last-child(2):hover {
+    border-radius: 0 0 3px 3px;
+}
+
+.heading::before {
+    content: '';
+    vertical-align: middle;
+    display: inline-block;
+    border-top: 7px solid #555;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    float: right;
+    transform: rotate(0);
+    transition: all 0.5s;
+    margin-top: 5px;
+}
+
+.active.heading::before {
+    transform: rotate(-180deg);
+}
+
+.not-active.heading::before {
+    transform: rotate(0deg);
+}
+
+.contents {
+    display: none;
+    background: #FFFAFA;
+    padding: 15px;
+    color: #7f8fa4;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+/* faqs  */
+
+
+
+/* MultiStepForm Section Starts here  */
+.whyChooseUS {
+    margin: 30px 0;
+    padding: 20px 20px 40px 20px;
+}
+
+.whyChooseUS .inner-box {
+    display: flex;
+    align-items: center;
+    border-radius: 13px;
+    background: #F4F4F4;
+    padding: 20px 25px 25px 20px;
+    justify-content: start;
+    box-shadow: rgb(0 0 0 / 3%) 0px 5px 15px;
+}
+
+.whyChooseUS .card-title {
+    padding: 30px 0;
+}
+
+.whyChooseUS .cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+}
+
+
+
+.whyChooseUS .upper-side .icon {
+    background: #D9D9D9;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 20px;
+    position: relative;
+    top: -8px;
+}
+
+.whyChooseUS .upper-side .inner-box p {
+    color: #868686;
+}
+
+.whyChooseUS .upper-side .inner-box .highlight-title {
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.whyChooseUS .lower-side ul {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+    margin-bottom: 30px;
+}
+
+.whyChooseUS .lower-side a {
+    color: #F96300;
+    font-weight: 500;
+    text-decoration: none;
+    margin-top: 20px;
+
+}
+
+.whyChooseUS .lower-side ul ion-icon {
+    background: #2F88FF;
+    color: #FFF;
+    border-radius: 50%;
+    font-weight: 900;
+    margin-right: 15px;
+    padding: 4px;
+}
+
+.whyChooseUS .lower-side ul li {
+    line-height: 30px;
+    align-items: center;
+}
+
+.whyChooseUS .RequestCallDiv .card {
+    background: url(../images/main/Request_Call_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+@media screen and (max-width:769px) {
+    .whyChooseUS .upper-side .inner-box .highlight-title {
+        font-size: 16px;
+    }
+
+    .whyChooseUS .cards {
+        gap: 1rem;
+    }
+
+    button.owl-next {
+        background: #FB6A0A !important;
+        width: 25px;
+        color: #FFF !important;
+    }
+
+    .owl-dots {
+        display: none;
+    }
+
+    button.owl-prev {
+        background: #FB6A0A !important;
+        width: 25px;
+        color: #FFF !important;
+    }
+
+    .whyChooseUS .upper-side .inner-box p {
+        font-size: 13px;
+    }
+
+    .whyChooseUS .card-title {
+        padding: 20px 0;
+        font-size: 20px;
+    }
+
+    .whyChooseUS .lower-side ul li {
+        line-height: 25px;
+        font-size: 15px;
+    }
+
+    .whyChooseUS .inner-box {
+        padding: 20px 25px 5px 20px;
+    }
+
+    .whyChooseUS .btn {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .whyChooseUS .cards {
+        gap: 1rem;
+    }
+
+    .whyChooseUS .card-title {
+        font-size: 18px;
+    }
+
+    .whyChooseUS .inner-box {
+        padding: 10px 10px 5px 10px;
+    }
+
+    .whyChooseUS .RequestCallDiv .card {
+        margin: 30px 0;
+    }
+
+    .whyChooseUS .upper-side .inner-box p {
+        font-size: 12px;
+    }
+
+    .whyChooseUS {
+        margin: 20px 0;
+        padding: 20px 10px 40px 10px;
+    }
+}
+
+
+
+/* Media Query  */

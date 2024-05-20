@@ -1,0 +1,37 @@
+.information-wrap span + span {
+  border-top: 1px solid #eff2f7;
+  padding-top: 8px;
+  margin-top: 8px;
+}
+
+.information-wrap span h6 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.fundings-form h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.information-wrap {
+  padding: 14px 10px;
+  border-radius: 5px;
+  border: 1px solid #eff2f7;
+}
+
+.status-box {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.status-box .form-control {
+  display: flex;
+}
+
+.status-box .form-control .form-check {
+  margin-right: 15px;
+}
+.coment-box {
+  margin-bottom: 20px;
+}

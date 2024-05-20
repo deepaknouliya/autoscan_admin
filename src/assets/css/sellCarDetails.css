@@ -1,0 +1,673 @@
+.ActivePageHeader {
+    margin: 20px 0 0 0;
+    padding: 20px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+.mySwiper2 {
+    height: 80%;
+    width: 100%;
+}
+
+.mySwiper {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.singleCarMain .rightSide {
+    background: #F8F8F8;
+    padding: 30px;
+    border-radius: 24px;
+
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    background: #FFFFFF80;
+    color: #555 !important;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    border-radius: 6px;
+    padding: 20px;
+}
+
+
+.swiper-button-prev:after {
+    font-size: 25px !important;
+    font-weight: 900;
+}
+
+.swiper-button-next:after {
+    font-size: 25px !important;
+    font-weight: 900;
+}
+
+.singleCarMain .rightSide .btn {
+    color: #fff;
+    width: 100%;
+    background: linear-gradient(90deg, #FF802B 0%, #F96300 100%);
+    box-shadow: 0px 8px 16px 0px #FF802B59;
+
+}
+
+.singleCarMain .rightSide .card-title {
+    font-size: 1.5rem;
+    line-height: 35px;
+    font-weight: 600;
+}
+
+.singleCarMain .rightSide .priceFrom {
+    color: #0085DF;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.singleCarMain .rightSide .card {
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.singleCarMain .rightSide ul li {
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-align: left;
+
+}
+
+.singleCarMain .rightSide .desc {
+    font-size: 12px;
+}
+
+.swiper-horizontal {
+    margin: 10px 0;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+    border: 2px solid #FA6504;
+    border-radius: 10px;
+}
+
+/* DetailTable  */
+.DetailTable {
+    margin: 30px 0;
+    padding: 30px;
+}
+
+.combined {
+    padding: 20px;
+    background: url('../images/main/tableDetailsBg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.combined th,
+.combined td {
+    border: 1px solid #A8A8A8;
+    padding: 30px;
+}
+
+.DetailTable .table {
+    border: 1px solid #A8A8A8;
+    border-radius: 20px;
+}
+
+/* DetailTable  */
+/* specification  */
+
+.specificationDiv {
+    margin: 30px 0;
+    padding: 20px;
+}
+
+.specificationDiv .CertificateReports {
+    background: url(../images/main/CertificateBg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 44px 20px 20px;
+}
+
+.specificationDiv .CertificateReports a {
+    color: #FF7E28;
+    font-size: 17px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.specificationDiv .CertificateReports .card {
+    margin: 30px 0;
+    padding: 50px 40px;
+}
+
+.specificationDiv .CertificateReports .badge {
+    background: linear-gradient(221deg, rgba(254, 54, 99, 0.88) 0%, rgba(255, 171, 115, 0.88) 100%);
+    position: absolute;
+    top: 0;
+    padding: 6px 25px;
+    border-radius: 0 22px 0 30px;
+    color: #FFF;
+    right: 0;
+    display: flex;
+    align-items: center;
+    width: 270px;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.specificationDiv .CertificateReports .badge img {
+    width: 30px;
+}
+
+/* specification  */
+
+
+
+.applyForLoanDiv {
+    background: url('../images/main/LoanBAnner.png');
+    /* background: #E4E4E4; */
+    padding: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 0;
+
+}
+
+.ribbon-2 {
+    --f: 16px;
+    --r: 17px;
+    --t: -42px;
+    position: absolute;
+    inset: var(--t) calc(-1* var(--f)) auto auto;
+    padding: 0 10px var(--f) calc(10px + var(--r));
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - var(--f)), calc(100% - var(--f)) 100%, calc(100% - var(--f)) calc(100% - var(--f)), 0 calc(100% - var(--f)), var(--r) calc(50% - var(--f) / 2));
+    background: linear-gradient(45deg, #FD5175, #ffaa2a);
+    box-shadow: 0 calc(-1* var(--f)) 0 inset #0005;
+    color: #FFF;
+    font-size: 13px;
+}
+
+.ribbon-2 b {
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.applyForLoanDiv .content {
+    width: 65%;
+}
+
+.applyForLoanDiv .content h2 {
+    font-size: 20px;
+}
+
+#desc {
+    height: 200px;
+    word-wrap: break-word;
+}
+
+.s-para {
+    font-size: 13px;
+
+}
+
+#desc .moreless-button {
+    color: #F96300;
+    font-weight: 600;
+}
+
+.moretext {
+    display: none;
+}
+
+.swiper-horizontal {
+    margin: 0 0 10px 0;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.grid .MakeOfferModal {
+    color: #F96300;
+    font-weight: 500;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.modal .button {
+    font-size: 13px;
+}
+
+#ReportDoneBYAutoScan .modal-dialog {
+    max-width: 50%;
+}
+
+/* Zebra striping */
+tr:nth-of-type(odd) {
+    background: #eee;
+}
+
+th {
+    background: #333;
+    color: white;
+    font-weight: bold;
+}
+
+td,
+th {
+    padding: 6px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+
+.defaultModal button.close.border-none {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    width: 30px;
+    height: 32px;
+    z-index: 1000;
+    font-size: 22px;
+    font-weight: 600;
+    transform: translateY(-100px);
+}
+
+.checkboxbutton {
+    margin: 0px 0px 0 0;
+    width: 100%;
+    height: 40px;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid #5555551f;
+}
+
+.checkboxbutton label,
+.checkboxbutton input {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.checkboxbutton input[type="radio"] {
+    opacity: 0.011;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.checkboxbutton input[type="radio"]:checked+label {
+    background: #ff802b9c;
+    border-radius: 4px;
+}
+
+.checkboxbutton label {
+    z-index: 90;
+    line-height: 1.8em;
+}
+
+.grid4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+#makeOfferModal .modal-dialog {
+
+    max-width: 700px;
+}
+
+.offerHighlightsContainer {
+    border-bottom: 4px dotted #000000a1;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width:1300px) {
+    #ReportDoneBYAutoScan .modal-dialog {
+        max-width: 80%;
+    }
+}
+
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+
+    /* Force table to not be like tables anymore */
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr {
+        border: 1px solid #ccc;
+    }
+
+    td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+    /*
+	Label the data
+	*/
+    td:nth-of-type(1):before {
+        content: "First Name";
+    }
+
+    td:nth-of-type(2):before {
+        content: "Last Name";
+    }
+
+    td:nth-of-type(3):before {
+        content: "Job Title";
+    }
+
+    td:nth-of-type(4):before {
+        content: "Favorite Color";
+    }
+
+    td:nth-of-type(5):before {
+        content: "Wars of Trek?";
+    }
+
+    td:nth-of-type(6):before {
+        content: "Secret Alias";
+    }
+
+    td:nth-of-type(7):before {
+        content: "Date of Birth";
+    }
+
+    td:nth-of-type(8):before {
+        content: "Dream Vacation City";
+    }
+
+    td:nth-of-type(9):before {
+        content: "GPA";
+    }
+
+    td:nth-of-type(10):before {
+        content: "Arbitrary Data";
+    }
+}
+
+/* MEDIA QUERY FOR DESKTOP */
+@media screen and (max-width:1200px) {
+    .specificationDiv .CertificateReports .card {
+        margin-bottom: 0;
+    }
+
+    .specificationDiv {
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+    .singleCarMain .rightSide {
+
+        padding: 20px;
+    }
+
+    .singleCarMain .rightSide .card-title {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .singleCarMain .rightSide .priceFrom {
+        color: #0085DF;
+        font-size: 17px;
+    }
+
+    .applyForLoanDiv .content h2 {
+        font-size: 15px;
+    }
+
+    .applyForLoanDiv .content {
+        width: 72%;
+    }
+}
+
+/* MEDIA QUERY FOR DESKTOP */
+
+/* MEDIA QUERY FOR TAB */
+@media screen and (max-width:920px) {
+    .singleCarMain .rightSide .card-title {
+        font-size: 20px;
+        line-height: 27px;
+        font-weight: 500;
+    }
+
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 95%;
+    }
+
+
+}
+
+/* MEDIA QUERY FOR TAB */
+/* MEDIA QUERY FOR Mobile */
+@media screen and (max-width:520px) {
+    .ActivePageHeader {
+        margin: 10px 0 0 0;
+        padding: 20px 0;
+    }
+
+    #makeOfferModal .modal-dialog {
+        max-width: 100%;
+    }
+
+    #makeOfferModal p {
+        font-size: 12px;
+    }
+
+    #makeOfferModal .modal-body {
+        padding: 20px 10px;
+    }
+
+    .grid4 {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5px;
+    }
+
+    .checkboxbutton label {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .ribbon-2 {
+        --f: 12px;
+        --r: 10px;
+        --t: -32px;
+    }
+
+    #ReportDoneBYAutoScan .modal-dialog {
+        max-width: 100%;
+    }
+
+    .applyForLoanDiv .content {
+        width: 65%;
+    }
+
+    .ActivePageHeader a {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .ActivePageHeader .d-flex {
+        gap: 0 5px;
+    }
+
+    .singleCarMain .rightSide .card-title {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .DetailTable {
+        padding: 0;
+    }
+
+    .singleCarMain .rightSide {
+        padding: 40px 20px 20px 20px;
+    }
+
+    .combined th,
+    .combined td {
+        padding: 15px;
+    }
+
+    .specificationDiv .CertificateReports .card {
+        margin: 30px 0;
+        padding: 70px 20px 35px 20px;
+    }
+
+    .specificationDiv {
+        padding: 10px;
+    }
+
+    .specificationDiv .card-title {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .heading {
+        font-size: 15px;
+        padding: 16px;
+    }
+
+    .recent-searches {
+        margin: 0;
+        padding: 0 20px;
+    }
+
+    .default-cars-advertise .head h2 {
+        font-size: 23px;
+        margin: 0;
+    }
+
+    .head {
+        padding: 0 12px;
+    }
+
+    .l-title {
+        font-size: 23px;
+    }
+
+    b,
+    strong {
+        font-weight: 500;
+    }
+
+    section.faqs {
+        padding: 20px;
+    }
+}
+
+/* MEDIA QUERY FOR Mobile */

@@ -1,0 +1,217 @@
+.ActivePageHeader {
+    margin: 20px 0 0 0;
+    padding: 20px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+.mySwiper2 {
+    height: 80%;
+    width: 100%;
+}
+
+.mySwiper {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.singleCarMain .rightSide {
+    background: #F8F8F8;
+    padding: 30px;
+    border-radius: 24px;
+
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    background: #FFFFFF80;
+    color: #555 !important;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    border-radius: 6px;
+    padding: 20px;
+}
+
+
+.swiper-button-prev:after {
+    font-size: 25px !important;
+    font-weight: 900;
+}
+
+.swiper-button-next:after {
+    font-size: 25px !important;
+    font-weight: 900;
+}
+
+.singleCarMain .rightSide .btn {
+    color: #fff;
+    width: 100%;
+    background: linear-gradient(90deg, #FF802B 0%, #F96300 100%);
+    box-shadow: 0px 8px 16px 0px #FF802B59;
+
+}
+
+.singleCarMain .rightSide .card-title {
+    font-size: 1.5rem;
+    line-height: 35px;
+    font-weight: 600;
+}
+
+.singleCarMain .rightSide .priceFrom {
+    color: #0085DF;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.singleCarMain .rightSide .card {
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.singleCarMain .rightSide ul li {
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-align: left;
+
+}
+
+.swiper-horizontal {
+    margin: 10px 0;
+}
+
+/* DetailTable  */
+.DetailTable {
+    margin: 30px 0;
+    padding: 30px;
+}
+
+.combined {
+    padding: 20px;
+    background: url('../images/main/tableDetailsBg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.combined th,
+.combined td {
+    border: 1px solid #A8A8A8;
+    padding: 30px;
+}
+
+.DetailTable .table {
+    border: 1px solid #A8A8A8;
+    border-radius: 20px;
+}
+
+/* DetailTable  */
+/* specification  */
+
+.specificationDiv {
+    margin: 30px 0;
+    padding: 20px;
+}
+
+.specificationDiv .CertificateReports {
+    background: url(../images/main/CertificateBg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 44px 20px 20px;
+}
+
+.specificationDiv .CertificateReports a {
+    color: #FF7E28;
+    font-size: 17px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.specificationDiv .CertificateReports .card {
+    margin: 30px 0;
+    padding: 50px 40px;
+}
+
+.specificationDiv .CertificateReports .badge {
+    background: linear-gradient(221deg, rgba(254, 54, 99, 0.88) 0%, rgba(255, 171, 115, 0.88) 100%);
+    position: absolute;
+    top: 0;
+    padding: 6px 25px;
+    border-radius: 0 22px 0 30px;
+    color: #FFF;
+    right: 0;
+    display: flex;
+    align-items: center;
+    width: 270px;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.specificationDiv .CertificateReports .badge img {
+    width: 30px;
+}
+
+/* specification  */
+

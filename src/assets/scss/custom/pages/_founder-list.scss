@@ -1,0 +1,38 @@
+
+.multi-input .ReactTags__tagInput input {
+    display: inline-block;
+    border: 1px solid #ced4da;
+    padding: 7px 15px;
+    border-radius: 100px;
+    width: 100%;
+}
+
+.multi-input .ReactTags__selected {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.multi-input .ReactTags__selected .ReactTags__tagInput {
+    display: block;
+    width: 100%;
+    order: 1;
+}
+
+.multi-input .ReactTags__selected .tag-wrapper {
+    order: 2;
+    background: #556ee6;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 11px;
+    border-radius: 100px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.multi-input .ReactTags__selected .tag-wrapper button {
+    background: transparent;
+    border: none;
+    color: #fff;
+    padding: 0;
+    margin-left: 10px;
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25.33" height="21.5" viewBox="0 0 25.33 21.5">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_63830" data-name="Rectangle 63830" width="25.33" height="21.5" fill="none" stroke="#44546f" strokeWidth="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_44239" data-name="Group 44239" transform="translate(-55 -188)">
+    <line id="Line_279" data-name="Line 279" x2="6.809" transform="translate(64.261 201.079)" fill="none" stroke="#44546f" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"/>
+    <g id="Group_44238" data-name="Group 44238" transform="translate(55 188)">
+      <g id="Group_44237" data-name="Group 44237" clip-path="url(#clip-path)">
+        <path id="Path_88433" data-name="Path 88433" d="M19.473,13.09h4.255a.851.851,0,0,0,.851-.851V4.579a.851.851,0,0,0-.851-.851H1.6a.851.851,0,0,0-.851.851v7.66a.851.851,0,0,0,.851.851H5.856" fill="none" stroke="#44546f" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"/>
+        <path id="Path_88434" data-name="Path 88434" d="M23.729,13.09V19.9a.851.851,0,0,1-.851.851H2.452A.851.851,0,0,1,1.6,19.9V13.09" fill="none" stroke="#44546f" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"/>
+        <path id="Path_88435" data-name="Path 88435" d="M16.069,12.239v1.2A1.751,1.751,0,0,0,17.6,15.21a1.7,1.7,0,0,0,1.869-1.694V12.239a.425.425,0,0,0-.425-.426H16.5A.426.426,0,0,0,16.069,12.239Z" fill="none" stroke="#44546f" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"/>
+        <path id="Path_88436" data-name="Path 88436" d="M5.856,12.239v1.2A1.751,1.751,0,0,0,7.391,15.21,1.7,1.7,0,0,0,9.26,13.516V12.239a.425.425,0,0,0-.425-.426H6.282A.426.426,0,0,0,5.856,12.239Z" fill="none" stroke="#44546f" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"/>
+        <path id="Path_88437" data-name="Path 88437" d="M16.5,3.729V1.48a.8.8,0,0,0-.851-.73H9.686a.8.8,0,0,0-.851.73V3.729" fill="none" stroke="#44546f" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

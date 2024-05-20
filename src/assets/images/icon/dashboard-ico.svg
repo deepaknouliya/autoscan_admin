@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <g id="Group_44946" data-name="Group 44946" transform="translate(68 -123)">
+    <rect id="Rectangle_63933" data-name="Rectangle 63933" width="25" height="25" transform="translate(-68 123)" fill="none"/>
+    <g id="Group_44945" data-name="Group 44945" transform="translate(-66.75 124.25)">
+      <g id="Group_44585" data-name="Group 44585" transform="translate(0.75 0.75)">
+        <rect id="Rectangle_63929" data-name="Rectangle 63929" width="8.182" height="8.182" rx="1.818" fill="none" stroke="#0c66e4" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"/>
+        <path id="Rectangle_63930" data-name="Rectangle 63930" d="M1.818,0H6.363A1.819,1.819,0,0,1,8.182,1.819V6.364A1.818,1.818,0,0,1,6.364,8.182H1.818A1.818,1.818,0,0,1,0,6.364V1.818A1.818,1.818,0,0,1,1.818,0Z" transform="translate(12.068)" fill="none" stroke="#0c66e4" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"/>
+        <rect id="Rectangle_63931" data-name="Rectangle 63931" width="8.182" height="8.182" rx="1.818" transform="translate(0 12.568)" fill="none" stroke="#0c66e4" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"/>
+        <path id="Rectangle_63932" data-name="Rectangle 63932" d="M1.818,0H6.364A1.818,1.818,0,0,1,8.182,1.818V6.363A1.819,1.819,0,0,1,6.363,8.182H1.818A1.818,1.818,0,0,1,0,6.364V1.818A1.818,1.818,0,0,1,1.818,0Z" transform="translate(12.068 12.568)" fill="#0c66e4" stroke="#0c66e4" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>
